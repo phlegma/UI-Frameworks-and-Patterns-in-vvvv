@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="JfeW0G3R4iHMBoaJ5y0WYC" LanguageVersion="2025.7.1-0169-g2e3c630a8f" Version="0.128">
-  <NugetDependency Id="Ot7vXDEqh1dN0UsIHsH4U7" Location="VL.CoreLib" Version="2025.7.1-0169-g2e3c630a8f" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="JfeW0G3R4iHMBoaJ5y0WYC" LanguageVersion="2025.7.1-0171-ga3bf4794a4" Version="0.128">
+  <NugetDependency Id="Ot7vXDEqh1dN0UsIHsH4U7" Location="VL.CoreLib" Version="2025.7.1-0171-ga3bf4794a4" />
   <Patch Id="LPQUwJLLlOYLXskhc7Jdh3">
     <Canvas Id="IHBvRxhWlXkM79FL00Nths" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -2249,7 +2249,7 @@
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
             <Pin Id="EMAaVQMVNf2MIIhNQanTL4" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="IP7Iro64gNDNN8POA18lhR" Name="Bounds" Kind="InputPin" DefaultValue="1310, 28, 1160, 764" IsHidden="true" />
+            <Pin Id="IP7Iro64gNDNN8POA18lhR" Name="Bounds" Kind="InputPin" DefaultValue="1291, 74, 1160, 764" IsHidden="true" />
             <Pin Id="OhUk0lcXRfZPS1pGZZQXFi" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="Crih6r1mjYkP4zxje5Ginm" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="EyUbJWQNM3mPPTWltTE2st" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
@@ -2358,7 +2358,7 @@
             <Pin Id="AYxOXef8m0PNVDHX5eqLUj" Name="Parameter" Kind="InputPin" />
             <Pin Id="Fg7r8AJA7RuPKTpO06S2ZU" Name="Camera" Kind="InputPin" />
           </Node>
-          <Node Bounds="-157,322,154,87" Id="HDQ0mU9SdjYLuQWzEUkaMi">
+          <Node Bounds="-157,330,154,87" Id="HDQ0mU9SdjYLuQWzEUkaMi">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -2367,8 +2367,8 @@
             <Pin Id="CWC9BKv9lZaNBXM741cdr8" Name="Functionality" Kind="OutputPin" />
             <Patch Id="EUWWpWtlaXpLlOHbaq3ZlB" ManuallySortedPins="true">
               <Pin Id="Lk6rkO4EcC3L2adVjNmhs8" Name="Obj" Kind="InputPin" />
-              <ControlPoint Id="LB6TxfSP79ULEaS4ox29OP" Bounds="-143,340" />
-              <Node Bounds="-145,370,130,19" Id="MubsEhYkzmELlpSHlZNZO1">
+              <ControlPoint Id="LB6TxfSP79ULEaS4ox29OP" Bounds="-143,348" />
+              <Node Bounds="-145,378,130,19" Id="MubsEhYkzmELlpSHlZNZO1">
                 <p:NodeReference LastCategoryFullName="Avalonia.Avalonia.Custom.Resources.ResourceLoader" LastDependency="VL.Avalonia.Custom.dll">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="IncludeCustomResources" />
@@ -2421,9 +2421,9 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="HF5XBGKJyIxO2f8Jk3IKOc" Location="VL.Skia" Version="2025.7.1-0169-g2e3c630a8f" />
+  <NugetDependency Id="HF5XBGKJyIxO2f8Jk3IKOc" Location="VL.Skia" Version="2025.7.1-0171-ga3bf4794a4" />
   <NugetDependency Id="E6pDWWk4kMXNaTPH7M7Mur" Location="VL.Avalonia.Skia" Version="0.5.0" />
   <NugetDependency Id="Mxm6h5qpwdOMsjVxhVzJ6D" Location="VL.Avalonia" Version="0.5.0" />
   <NugetDependency Id="J5duncboopLMUQp4t4GbwR" Location="VL.Avalonia.Custom" Version="0.5.0" />
-  <NugetDependency Id="QHabMGoxwssOw9gTnEsfOL" Location="VL.Stride" Version="2025.7.1-0169-g2e3c630a8f" />
+  <NugetDependency Id="QHabMGoxwssOw9gTnEsfOL" Location="VL.Stride" Version="2025.7.1-0171-ga3bf4794a4" />
 </Document>

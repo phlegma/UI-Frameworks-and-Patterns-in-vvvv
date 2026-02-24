@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="JdixEp2iOJ0Lnka7QqIOI7" LanguageVersion="2025.7.1-0169-g2e3c630a8f" Version="0.128">
-  <NugetDependency Id="Ot7vXDEqh1dN0UsIHsH4U7" Location="VL.CoreLib" Version="2025.7.1-0169-g2e3c630a8f" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="JdixEp2iOJ0Lnka7QqIOI7" LanguageVersion="2025.7.1-0171-ga3bf4794a4" Version="0.128">
+  <NugetDependency Id="Ot7vXDEqh1dN0UsIHsH4U7" Location="VL.CoreLib" Version="2025.7.1-0171-ga3bf4794a4" />
   <Patch Id="LPQUwJLLlOYLXskhc7Jdh3">
     <Canvas Id="IHBvRxhWlXkM79FL00Nths" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -15,7 +15,7 @@
       </p:NodeReference>
       <Patch Id="HF6fS92S3RWMyGUwmrvLT3">
         <Canvas Id="GPNhdAGD97CN2OOjwE2uya" CanvasType="Group">
-          <Node Bounds="57,1002,145,19" Id="LRYgfMuZIsiPcKQbx2A4tX">
+          <Node Bounds="57,960,145,19" Id="LRYgfMuZIsiPcKQbx2A4tX">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastDependency="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
@@ -43,7 +43,7 @@
             <Pin Id="LVCVyIOVar8Nmdj6RdgUeq" Name="ClientBounds" Kind="OutputPin" />
             <Pin Id="KnpRyZEGwKzOBYV3JmCV3d" Name="Render Time" Kind="OutputPin" />
           </Node>
-          <Node Bounds="57,952,79,19" Id="IFlKEVZ0cOiL3r6ah33y8f">
+          <Node Bounds="57,910,79,19" Id="IFlKEVZ0cOiL3r6ah33y8f">
             <p:NodeReference LastCategoryFullName="Avalonia" LastDependency="VL.Skia.Avalonia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="AvaloniaLayer" />
@@ -54,15 +54,8 @@
             <Pin Id="RIfFfNlICbNLof9hiZrdjK" Name="Output" Kind="StateOutputPin" />
             <Pin Id="FbeItIj0fg9PmeljhCUCJU" Name="Scaling Factor" Kind="InputPin" />
           </Node>
-          <Node Bounds="94,890,70,19" Id="GywNa8jtXK9MpurCZg3Ult">
-            <p:NodeReference LastCategoryFullName="Avalonia.Themes.Variants" LastDependency="VL.Avalonia.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="DarkTheme" />
-            </p:NodeReference>
-            <Pin Id="O0yR6R3PNJLMrWTNIqzu45" Name="Dark Theme" Kind="OutputPin" />
-          </Node>
-          <Pad Id="D2o0sQBcwJiPeH2yaeZfI7" SlotId="HchCPw5Al7dMKEA1rxCayt" Bounds="129,1052" Value="-0.5, -0.5, 1, 1" />
-          <Pad Id="Li7zgf9UKqpPIKY9xmQk5Y" Comment="Scaling Factor like in Display Settings" Bounds="133,933,35,15" ShowValueBox="true" isIOBox="true" Value="1.5">
+          <Pad Id="D2o0sQBcwJiPeH2yaeZfI7" SlotId="HchCPw5Al7dMKEA1rxCayt" Bounds="129,1010" Value="-0.5, -0.5, 1, 1" />
+          <Pad Id="Li7zgf9UKqpPIKY9xmQk5Y" Comment="Scaling Factor like in Display Settings" Bounds="133,891,35,15" ShowValueBox="true" isIOBox="true" Value="1.5">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -331,7 +324,6 @@
             </p:NodeReference>
             <Pin Id="BmbPc2U7pSnLzAbXa85HHC" Name="Black" Kind="OutputPin" />
           </Node>
-          <ControlPoint Id="DCxr4MK9bluOOhaNPWaTK6" Bounds="144,830" />
           <Node Bounds="57,640,85,19" Id="ACp8WyC9geENcdsJhOMlE2">
             <p:NodeReference LastCategoryFullName="Avalonia.Avalonia.Controls.Panels" LastDependency="VL.Avalonia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -647,14 +639,11 @@
           </Node>
         </Canvas>
         <Patch Id="E4nQOcIT0zvOYgkhprkSgE" Name="Create" />
-        <Patch Id="Gt5OjD78KcqMMXj2SHrzkR" Name="Update">
-          <Pin Id="NvZEPdmYvHWP3X0vBI09kH" Name="Output" Kind="OutputPin" />
-        </Patch>
+        <Patch Id="Gt5OjD78KcqMMXj2SHrzkR" Name="Update" />
         <ProcessDefinition Id="TCCjnmNcwyDMUjhDAVy6VD">
           <Fragment Id="I0A0EFuOXx9LY9jz0fXI25" Patch="E4nQOcIT0zvOYgkhprkSgE" Enabled="true" />
           <Fragment Id="Fnybk3Yqd1tPNfrZtxw3Nh" Patch="Gt5OjD78KcqMMXj2SHrzkR" Enabled="true" />
         </ProcessDefinition>
-        <Link Id="BBHlz71MdAELzrtJYjHyzq" Ids="O0yR6R3PNJLMrWTNIqzu45,U8X0y8xcRYKOArxsjTGMV7" />
         <Link Id="SSir6pasIc9M2PxfZmIcQq" Ids="RIfFfNlICbNLof9hiZrdjK,M6faqG3yVBXL3Y6DctNIuZ" />
         <Slot Id="HchCPw5Al7dMKEA1rxCayt" Name="ClientBounds" />
         <Link Id="BxLxSvyrs0VMHGKZcKlBEv" Ids="LVCVyIOVar8Nmdj6RdgUeq,D2o0sQBcwJiPeH2yaeZfI7" />
@@ -673,15 +662,12 @@
         <Link Id="Dq484mdZ3hiNSiXdu8E1nu" Ids="BmbPc2U7pSnLzAbXa85HHC,ImyFqAOzkWXMZKAH4VQhAS" />
         <Link Id="UnL1QIhfp6EN1lYh3H7peR" Ids="RBPDfEaqQIEM8pIUc191KE,LvkygMwtBArMDfNR7iIHvP" />
         <Link Id="OJQPuxFAxBcPLPk3Hrtndc" Ids="Cb0k86n6FUDPz2rDIJcwKl,BbyR5NWhR79OtDhDSIBC9C" />
-        <Link Id="LTYopSGUs9ZO1K8OjIYurv" Ids="DCxr4MK9bluOOhaNPWaTK6,NvZEPdmYvHWP3X0vBI09kH" IsHidden="true" />
         <Link Id="FWcJqSOrZrtPmtsAy6zQS3" Ids="AWV0HRnyA9JLrY0Z2bs8Ru,BfgKNuPiKwgPk1wDluXvv7" />
         <Link Id="FLKjitJQlNWO7nHEzn6QCm" Ids="CsCauc7RUcIMwTRRjBQd2v,VJv3ZGhn6CGQEhWQpHc8UE" />
         <Link Id="CClnhoeZDaePio8vpN4R9j" Ids="DCwdmO8Kn5nNNQtSyLf8qe,MYxBlYLEEDqPXcoY8eCW1B" />
         <Link Id="KttXVzrIb6DLvRp7XOVINc" Ids="H3IfjTOe0XdLo2gZ0E9GZV,QhVegYCFcoqLCtubDfUSLV" />
         <Link Id="TPI2K8pT97NPd5L7oXSpkK" Ids="JAmhtZUQSjmM2lE2myp5uo,O4DPP1W6kvlOVv9XWcNt07" />
-        <Link Id="Tq1m9CduQTMMgAwKl2tQux" Ids="BztiWoRbYqGLg6Q9HEjTzU,DCxr4MK9bluOOhaNPWaTK6" />
         <Link Id="V0e04Yu9tjfP8LLEDn7cYP" Ids="KifzlpEshVxMU0EnW9XPhZ,SgRTjUWBaHdPfigy80mATb" />
-        <Link Id="VF7Mky5PHupPaRLRuXuJfp" Ids="BztiWoRbYqGLg6Q9HEjTzU,MXQcpNhYZ1ZNUR7aInj5M3" />
         <Link Id="VhXg5gb6bf2LfY5avWhKh9" Ids="CZDWFCeE78bMzMLtYJlnb9,VbLtVEOvht1MdYwfZXedRU" />
         <Link Id="JSIPq3hCLpJOYk28Qoq7zM" Ids="G5mlvlH8hKkOz2V0KMR0XH,TUENLHxRdYUOleZPH5dQW7" />
         <Link Id="VLffeXw8p7ZOovKLPsyuUK" Ids="EhhMH4FpdtoOVNC9bP4rzk,CtRa3BK9NwXOUGn5Noobqr" />
@@ -707,12 +693,13 @@
         <Link Id="NRlI6IaScFYPKSac6Hz0V3" Ids="N64NVWAgb9ZPqnx6wpt0Hc,A8IKsD4yBXnMbuRGKOrawk" />
         <Link Id="L2XNck8i7K7OGhYZoiYDtg" Ids="N64NVWAgb9ZPqnx6wpt0Hc,HYgeoaIy9fnNxRW4nKM7Te" />
         <Link Id="QAMASGg0HMgPi4XTESiJJW" Ids="N2BSJJOmGWHN0A7pau7jgd,Og58zVXIN0nLrT3OowVvmg" />
+        <Link Id="VDdOiSfT1owQMpTfOUZkSx" Ids="BztiWoRbYqGLg6Q9HEjTzU,MXQcpNhYZ1ZNUR7aInj5M3" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="HF5XBGKJyIxO2f8Jk3IKOc" Location="VL.Skia" Version="2025.7.1-0169-g2e3c630a8f" />
+  <NugetDependency Id="HF5XBGKJyIxO2f8Jk3IKOc" Location="VL.Skia" Version="2025.7.1-0171-ga3bf4794a4" />
   <NugetDependency Id="E6pDWWk4kMXNaTPH7M7Mur" Location="VL.Avalonia.Skia" Version="0.5.0" />
   <NugetDependency Id="Mxm6h5qpwdOMsjVxhVzJ6D" Location="VL.Avalonia" Version="0.5.0" />
   <NugetDependency Id="J5duncboopLMUQp4t4GbwR" Location="VL.Avalonia.Custom" Version="0.5.0" />
-  <NugetDependency Id="QHabMGoxwssOw9gTnEsfOL" Location="VL.Stride" Version="2025.7.1-0169-g2e3c630a8f" />
+  <NugetDependency Id="QHabMGoxwssOw9gTnEsfOL" Location="VL.Stride" Version="2025.7.1-0171-ga3bf4794a4" />
 </Document>
