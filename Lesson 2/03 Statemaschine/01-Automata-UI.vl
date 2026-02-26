@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" xmlns:r="reflection" Id="JXZUrHF4avIPx4bXQIKvgY" LanguageVersion="2025.7.1-0171-ga3bf4794a4" Version="0.128">
+  <NugetDependency Id="DuowADzF9LALjgcUNXKmtE" Location="VL.CoreLib" Version="2025.7.1-0171-ga3bf4794a4" />
+  <Patch Id="CYIdpPSxbJuLWkpQt7MsG3">
+    <Canvas Id="QAFctuQSENlLH0iAmLgizB" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="MqVY3731serLIhR0eDHsyp">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <CategoryReference Kind="Category" Name="Primitive" />
+      </p:NodeReference>
+      <Patch Id="GdkzUgpzZFwOqszdp4OR8b">
+        <Canvas Id="Np2LgLLN6tTQZBCTa35EFv" CanvasType="Group">
+          <Node Bounds="293,320,70,19" Id="GHmiu2suGlvNfXTzCDnlpB">
+            <p:NodeReference LastCategoryFullName="VVVV.AutomataUI" LastDependency="VL.AutomataUI.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="AutomataUI" />
+            </p:NodeReference>
+            <Pin Id="F5GgyTptPf6Qb4CjX3XOZ7" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="LO5jCapM6akLOxCyUYurpo" Name="Save" Kind="InputPin" />
+            <Pin Id="KsFG18NzAV7PTSyROK6vgi" Name="Load" Kind="InputPin" />
+            <Pin Id="CwJmFltXE3vN7I9orBgfsg" Name="AutomataXML" Kind="InputPin" />
+            <Pin Id="NNyB4Jdgia9P8A7Ayz3F5I" Name="Show" Kind="InputPin" />
+            <Pin Id="PxnhEiwZF8zLN6bJmxotMl" Name="XMLOut" Kind="OutputPin" />
+            <Pin Id="OUYMIIUkB6bLyKsPFWFTAk" Name="ActiveState" Kind="OutputPin" />
+            <Pin Id="Ss9CFsJJ1izP2Mcq8IJlJt" Name="Automata" Kind="OutputPin" />
+          </Node>
+          <Pad Id="BcNZLuDwM1SOdqhygqsTLp" Comment="Load" Bounds="317,221,45,15" ShowValueBox="true" isIOBox="true" Value="false">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="LVhUyrCDozlPA3goFkZwAH" Comment="Save" Bounds="295,261,35,35" ShowValueBox="true" isIOBox="true" Value="false">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="JYh7BHeRbTHNqsQlbfSX90" Comment="Show" Bounds="415,290,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="AWJAJsvioQuQXj04vNpb5D" Comment="Automata" Bounds="360,370,190,132" ShowValueBox="true" isIOBox="true" />
+        </Canvas>
+        <Patch Id="Dv8aGhYKgh9OcpOytS23R0" Name="Create" />
+        <Patch Id="Uy1I4xXiwBNLR8YnqF3Q9e" Name="Update" />
+        <ProcessDefinition Id="GQqVvJ4ty64M2T7I7jCqPL">
+          <Fragment Id="Fy6fV5MhNwZNwxyTlg4IeH" Patch="Dv8aGhYKgh9OcpOytS23R0" Enabled="true" />
+          <Fragment Id="Mhk2xR1RTQ5LwGeEPE7r3d" Patch="Uy1I4xXiwBNLR8YnqF3Q9e" Enabled="true" />
+        </ProcessDefinition>
+        <Link Id="HuORgJe8yVCPyJ60xuCvRK" Ids="BcNZLuDwM1SOdqhygqsTLp,KsFG18NzAV7PTSyROK6vgi" />
+        <Link Id="SFtdZGn68C5LvllAspbB30" Ids="LVhUyrCDozlPA3goFkZwAH,LO5jCapM6akLOxCyUYurpo" />
+        <Link Id="Ll7qZbE6fKLNFANxTYRjJq" Ids="JYh7BHeRbTHNqsQlbfSX90,NNyB4Jdgia9P8A7Ayz3F5I" />
+        <Link Id="Paxq2L2DOn8LdZGhZbAM7M" Ids="Ss9CFsJJ1izP2Mcq8IJlJt,AWJAJsvioQuQXj04vNpb5D" />
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="UFNW0Szn1bwNTJCvrvsMaD" Location="VL.AutomataUI" Version="0.2.3" />
+</Document>
