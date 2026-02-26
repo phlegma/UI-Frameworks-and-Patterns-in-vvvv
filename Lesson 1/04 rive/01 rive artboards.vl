@@ -380,7 +380,7 @@
               <Choice Kind="ProcessAppFlag" Name="RenderWindow" />
             </p:NodeReference>
             <Pin Id="ABAOZaNMjZ4PwaFQzhYttK" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="NtmtFTgIM5nLfhxFCEG6wE" Name="Bounds" Kind="InputPin" DefaultValue="1290, 19.333334, 1197.3334, 410" IsHidden="true" />
+            <Pin Id="NtmtFTgIM5nLfhxFCEG6wE" Name="Bounds" Kind="InputPin" DefaultValue="-1252, 103.333336, 1197.3334, 410" IsHidden="true" />
             <Pin Id="Ix9UIeb0BIKOrdlBENTz7e" Name="Bound to Document" Kind="InputPin" DefaultValue="True" />
             <Pin Id="SAo3ZuFqFuONPy4G13VaIM" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="T8x2hOVd33yMUXh2yHX6Fx" Name="Save Bounds" Kind="InputPin" />
@@ -470,7 +470,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="BZZVymbPjd8OIArq7R1UIG" Name="Bounds" Kind="InputPin" DefaultValue="1304.6666, 484, 786, 432" IsHidden="true" />
+            <Pin Id="BZZVymbPjd8OIArq7R1UIG" Name="Bounds" Kind="InputPin" DefaultValue="-1243.3334, 560, 786, 432" IsHidden="true" />
             <Pin Id="LOwO3DGQyqbQZyHTcr48qF" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="CJU9VzX40WXQIn0JdFsDdE" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="MdMg9qXhr2gLZkpa3xzOtK" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -635,11 +635,6 @@
               <Patch Id="OrIeqhvovGBMxeIj7Q0GBi" Name="Create">
                 <Pin Id="Hd2ZUceYMQUMrnVz40hnpC" Name="Increment" Kind="InputPin" />
               </Patch>
-              <!--
-
-    ************************  ************************
-
--->
               <ProcessDefinition Id="Sui58YuMqr0OvloBapjM7m" IsHidden="true">
                 <Fragment Id="JcQgAV0i8T1PlRX3xYiaOy" Patch="OrIeqhvovGBMxeIj7Q0GBi" Enabled="true" />
                 <Fragment Id="I8UodnpNypROnOH49rhp08" Patch="CqYHhIDFxoNLuoHC9cNTZ7" />
