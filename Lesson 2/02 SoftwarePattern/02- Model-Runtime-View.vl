@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="KrIOFdE5PpGOpkuHHTa2bh" LanguageVersion="2025.7.1-0171-ga3bf4794a4" Version="0.128">
-  <NugetDependency Id="Oy32ZFnLeM0OIkYBANDkjx" Location="VL.CoreLib" Version="2025.7.1-0171-ga3bf4794a4" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="KrIOFdE5PpGOpkuHHTa2bh" LanguageVersion="2025.7.1-0174-g187f627d60" Version="0.128">
+  <NugetDependency Id="Oy32ZFnLeM0OIkYBANDkjx" Location="VL.CoreLib" Version="2025.7.1-0174-g187f627d60" />
   <Patch Id="PNIQxmt1ZNZNqB7u74nof5">
     <Canvas Id="E7uZBqDxSgRQUQwTWwHy8U" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -742,7 +742,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="HK4UTAW8mrILS0BzKfNJx0" Location="VL.Skia" Version="2025.7.1-0171-ga3bf4794a4" />
-  <NugetDependency Id="DXB0GGRXiCpLds1Bh1vx7O" Location="VL.ImGui" Version="2025.7.1-0171-ga3bf4794a4" />
-  <NugetDependency Id="N8IzFX5zdQgQP38iMSApP9" Location="VL.ImGui.Skia" Version="2025.7.1-0171-ga3bf4794a4" />
+  <NugetDependency Id="HK4UTAW8mrILS0BzKfNJx0" Location="VL.Skia" Version="2025.7.1-0174-g187f627d60" />
+  <NugetDependency Id="DXB0GGRXiCpLds1Bh1vx7O" Location="VL.ImGui" Version="2025.7.1-0174-g187f627d60" />
+  <NugetDependency Id="N8IzFX5zdQgQP38iMSApP9" Location="VL.ImGui.Skia" Version="2025.7.1-0174-g187f627d60" />
 </Document>

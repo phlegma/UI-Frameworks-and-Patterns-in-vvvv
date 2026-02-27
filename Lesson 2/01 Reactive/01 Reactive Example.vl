@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="OWGwFIQKb9tPbqgqTx2KMn" LanguageVersion="2025.7.1-0171-ga3bf4794a4" Version="0.128">
-  <NugetDependency Id="G1XoSdBt2H0Li33OyIlFS3" Location="VL.CoreLib" Version="2025.7.1-0171-ga3bf4794a4" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="OWGwFIQKb9tPbqgqTx2KMn" LanguageVersion="2025.7.1-0174-g187f627d60" Version="0.128">
+  <NugetDependency Id="G1XoSdBt2H0Li33OyIlFS3" Location="VL.CoreLib" Version="2025.7.1-0174-g187f627d60" />
   <Patch Id="PEU9FgrhiWAMXtTfZKa4M6">
     <Canvas Id="Ai5PMMgbsnCNQjPEwnpQIT" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -149,7 +149,7 @@
                 </Node>
                 <ControlPoint Id="QIqxjqOAuwPL1rFDHIYNZ1" Bounds="324,210" />
                 <ControlPoint Id="HT5EBXObVa4LQPwLe4aJrz" Bounds="309,681" />
-                <Node Bounds="308,160,82,19" Id="AqpWVlgB7TkPYuoR7Ksa3n">
+                <Node Bounds="308,180,82,19" Id="AqpWVlgB7TkPYuoR7Ksa3n">
                   <p:NodeReference LastCategoryFullName="Reactive" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <FullNameCategoryReference ID="Reactive" />
@@ -159,7 +159,7 @@
                   <Pin Id="RCcFqOEeMvmL1rFiOsfqiL" Name="Value" Kind="InputPin" />
                   <Pin Id="A7eIIfvsZE8NDCBWS1u9Ac" Name="Result" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="612,180,145,19" Id="Ife9VUFuOk6LTMi9CIXKRJ">
+                <Node Bounds="308,140,145,19" Id="Ife9VUFuOk6LTMi9CIXKRJ">
                   <p:NodeReference LastCategoryFullName="Reactive" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="Debug" />
@@ -177,7 +177,8 @@
                   <Pin Id="T3AQnkNBAFRPlXCx47FstI" Name="Unsubscribe Calls" Kind="OutputPin" />
                   <Pin Id="Q7TLgrqHqpjLqaOs3tU6Ko" Name="Latest Thread Id" Kind="OutputPin" />
                 </Node>
-                <Pad Id="C57ALloaxPRLJjQsTI56uP" Comment="" Bounds="614,229,190,132" ShowValueBox="true" isIOBox="true" />
+                <Pad Id="NTgb5YiKc2zNiShY5QGWof" Comment="On Next Calls" Bounds="437,210,35,15" ShowValueBox="true" isIOBox="true" />
+                <Pad Id="LNzBbk8IraMLhpCBoSdkVv" Comment="Latest Thread Id" Bounds="450,180,35,15" ShowValueBox="true" isIOBox="true" />
               </Canvas>
               <Patch Id="G4cVPLVNm1OQYvhPnW3Ty7" Name="Create" ParticipatingElements="PE1lLxSIX9fOpIPnyXAKbU,NvFv7KvKLaxMBr5lfGZEIB" />
               <ProcessDefinition Id="MiQ6DJhoKLJN0pgjuHetMi" IsHidden="true">
@@ -199,8 +200,7 @@
               <Link Id="NvFv7KvKLaxMBr5lfGZEIB" Ids="GUjftIvCZd9PES4zVb7wMN,Cdfdu2Uk75zOK6supViABd" />
               <Link Id="T7RlEaUG1ZPOXGIlZe6h3X" Ids="Cdfdu2Uk75zOK6supViABd,Ef4UBhGkG5BQJ3NmRCmcGH" />
               <Patch Id="VKtEFtIJgcrNbB4W5MHvWe" Name="StartPipline" ParticipatingElements="T7RlEaUG1ZPOXGIlZe6h3X" />
-              <Link Id="DXJ4rOQHJaPLKhSQWwRd87" Ids="Cdfdu2Uk75zOK6supViABd,RCcFqOEeMvmL1rFiOsfqiL" />
-              <Patch Id="RJnkbP3Q9vkN5sHDvNKGed" Name="Pipeline" ParticipatingElements="DXJ4rOQHJaPLKhSQWwRd87">
+              <Patch Id="RJnkbP3Q9vkN5sHDvNKGed" Name="Pipeline" ParticipatingElements="T1XYKiiyr9AODOCF73pXlG">
                 <Pin Id="TE5NXbrO2mhOLGekzU9Vi5" Name="Input" Kind="InputPin" />
                 <Pin Id="LjypgRcONBhM4ZDLb5INGM" Name="Result" Kind="OutputPin" />
               </Patch>
@@ -221,7 +221,10 @@
               <Link Id="AA3hgn5lDyQOaS3Xw0r6Vb" Ids="HT5EBXObVa4LQPwLe4aJrz,LjypgRcONBhM4ZDLb5INGM" IsHidden="true" />
               <Link Id="HSIiPr46vzkLfacPno2r2c" Ids="GOT92TlZfXYN6qABpbR034,OOG0nNepu08QWm7calQVCg" />
               <Link Id="QJusGfLez6SLdwpcH4Euv2" Ids="A7eIIfvsZE8NDCBWS1u9Ac,FbjMa0NWGxyMvg7apXQ6Vd" />
-              <Link Id="MTIgfXPmLCALBLLtbCHkK1" Ids="Fx6WuQAtCdlO2Bmat5AjqK,C57ALloaxPRLJjQsTI56uP" />
+              <Link Id="T1XYKiiyr9AODOCF73pXlG" Ids="Cdfdu2Uk75zOK6supViABd,IBOfnhPhwKQNAI50KalsQe" />
+              <Link Id="Exes6lJAhBSOoiHQ37lRQi" Ids="Fx6WuQAtCdlO2Bmat5AjqK,RCcFqOEeMvmL1rFiOsfqiL" />
+              <Link Id="C6LTfIzseHUPkMAlwLiTvl" Ids="TLpXbizmIhiOQa0Z8L2tbs,NTgb5YiKc2zNiShY5QGWof" />
+              <Link Id="PVMBHTJLuanN5o20JbY7Cx" Ids="Q7TLgrqHqpjLqaOs3tU6Ko,LNzBbk8IraMLhpCBoSdkVv" />
             </Patch>
           </Node>
           <Node Bounds="194,19,50,26" Id="FIlpZ5F3t3JLp7MRPw0DFR">
@@ -295,7 +298,7 @@
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
             <Pin Id="DayMpRAwxQAQI7JG1Hprpv" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="BvUVREpxGxJL09drHwLLWI" Name="Bounds" Kind="InputPin" DefaultValue="1263, 12, 615, 437" IsHidden="true" />
+            <Pin Id="BvUVREpxGxJL09drHwLLWI" Name="Bounds" Kind="InputPin" DefaultValue="1315, 16, 615, 437" IsHidden="true" />
             <Pin Id="CzIvtj220mxLW9WrJsQmSR" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="DnWj2OGeV2oOxpS5kE1EK2" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="GZRZc70xJmZLV6UWC0ISrt" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
@@ -323,7 +326,7 @@
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
             <Pin Id="SONzW3B64pVPF7D7H4vHH8" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="LVk6w9jFVjXLuaYEAiH5iO" Name="Bounds" Kind="InputPin" DefaultValue="1273, 470, 615, 437">
+            <Pin Id="LVk6w9jFVjXLuaYEAiH5iO" Name="Bounds" Kind="InputPin" DefaultValue="1280, 474, 615, 437">
               <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastDependency="System.Drawing.dll">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -778,5 +781,5 @@
     </Node>
   </Patch>
   <PlatformDependency Id="DAS8MFLDHuJMr5XDSTuVDv" Location="System.Runtime" />
-  <NugetDependency Id="FDBrI126FLaNQhvyiqUXq3" Location="VL.Skia" Version="2025.7.1-0171-ga3bf4794a4" />
+  <NugetDependency Id="FDBrI126FLaNQhvyiqUXq3" Location="VL.Skia" Version="2025.7.1-0174-g187f627d60" />
 </Document>
