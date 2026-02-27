@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE ROOT PUBLIC "" ""[]>
+<PresetModel xmlns:r="reflection" r:Version="2">
+  <ChannelValues>
+    <Item Key="MyFloat">
+      <Value r:Type="Float32 [Primitive]">42.23</Value>
+    </Item>
+    <Item Key="Sub 1/MyColor">
+      <Value r:Type="RGBA [Color]">0.77, 0.35019505, 0.32340005, 1</Value>
+    </Item>
+    <Item Key="Sub 1/MyString" />
+  </ChannelValues>
+</PresetModel>
