@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="SWKqFk91mXzNRZGBkLzePp" LanguageVersion="2025.7.1-0169-g2e3c630a8f" Version="0.128">
-  <NugetDependency Id="UUFj1y5nEBdMHfRkCAaBzE" Location="VL.CoreLib" Version="2025.7.1-0169-g2e3c630a8f" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="SWKqFk91mXzNRZGBkLzePp" LanguageVersion="2025.7.1-0171-ga3bf4794a4" Version="0.128">
+  <NugetDependency Id="UUFj1y5nEBdMHfRkCAaBzE" Location="VL.CoreLib" Version="2025.7.1-0171-ga3bf4794a4" />
   <Patch Id="F9ZAbRp6Q8ZLkb8Kw939O6">
     <Canvas Id="OJVWDUhWkEmOfpfiUJJKdt" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -52,7 +52,7 @@
               <Choice Kind="ProcessAppFlag" Name="RenderWindow" />
             </p:NodeReference>
             <Pin Id="SMD6FRFMeoTNlPmdGMSNU5" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="LqJQV6OM6P6OLs4dqgIKEO" Name="Bounds" Kind="InputPin" DefaultValue="-2584.6667, 120, 1277.3334, 664.6667" IsHidden="true" />
+            <Pin Id="LqJQV6OM6P6OLs4dqgIKEO" Name="Bounds" Kind="InputPin" DefaultValue="-1284.6666, 82.666664, 1277.3334, 664.6667" IsHidden="true" />
             <Pin Id="SnVMRVeS2OdPyxsANpIkJm" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="DK4DlSUGX3KOGnRLH4W9n2" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="RotFDkfGKr3MJrlrHTE56l" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -555,7 +555,6 @@
             <Pin Id="IENpPPkWLRIMqiri1xMiop" Name="Input 2" Kind="InputPin" />
             <Pin Id="RNfp4vYWV31OaQqD9tM9v3" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Pad Id="TBQslIuUSjAQG7t2UsE6qs" SlotId="J2duANVDBbeNrZVusZMaJp" Bounds="1159,370" />
           <Node Bounds="1360,430,57,19" Id="HQO1EpMbSbqLk0ZqmryNiq">
             <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -567,7 +566,7 @@
             <Pin Id="BvSsj74dMdgNHZvWpKpBiR" Name="Result" Kind="OutputPin" />
             <Pin Id="PsSNAsoLl31ONVC95zDkNh" Name="Unchanged" Kind="OutputPin" />
           </Node>
-          <Pad Id="IUcUQvJnouNPOOBGfeEdKo" Comment="Test" Bounds="1362,400,136,15" ShowValueBox="true" isIOBox="true" Value="0.01, 0.01, 0.01, 0.97">
+          <Pad Id="IUcUQvJnouNPOOBGfeEdKo" Comment="Test" Bounds="1362,400,136,15" ShowValueBox="true" isIOBox="true" Value="1, 1, 1, 0.97">
             <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
@@ -626,7 +625,6 @@
         <Link Id="AdxAt9xk80sLxzuBgOQ6LP" Ids="TQ0UKSNSFbsNQaudt4grOY,Q1K5lB6TGfKPGaOpGCeIUl" />
         <Link Id="Bbj1EarqKayNnozgEESLQZ" Ids="R6W5mQAxROsOkJ18TpFmGE,Iz96kJfcQhXO6OpzCVMmRG" />
         <Slot Id="CnPcJvHSwmOLHeOfJMOCZu" Name="Icon Change" />
-        <Slot Id="J2duANVDBbeNrZVusZMaJp" Name="Background" />
         <Link Id="PH9smr0xLqZO6YVmxD5YTY" Ids="FmekXSqhMEFQS8JyEFxxC6,BYeaWHi8KRiNIegqPauFCs" />
         <Link Id="JooVF3fYFM4NNRZEuedy2g" Ids="NPoyccXxW35MuWTeFdiLBV,Uin6ka78Rm7NbX9xLSTID0" />
         <Link Id="UHxmkHW0cUaOBLl2twbckM" Ids="NOMJKJr5XAgNmarGk0Run1,RHgCevIycFQNV1c1zsqFvE" />
@@ -641,5 +639,5 @@
     </Node>
   </Patch>
   <NugetDependency Id="UFNd3EsUId6N3bnAbbAVv9" Location="VL.Rive" Version="0.0.15-pre" />
-  <NugetDependency Id="D1tZmUCi45ONsa5gBRp7XS" Location="VL.Stride" Version="2025.7.1-0169-g2e3c630a8f" />
+  <NugetDependency Id="D1tZmUCi45ONsa5gBRp7XS" Location="VL.Stride" Version="2025.7.1-0171-ga3bf4794a4" />
 </Document>
